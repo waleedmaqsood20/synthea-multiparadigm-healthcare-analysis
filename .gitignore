@@ -1,0 +1,31 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# raw and derived data (see data/README.md for how to obtain/regenerate)
+data/raw/
+data/subset/
+data/csv/
+data/synthea_subset/
+*.db
+*.sqlite
+*.sqlite3
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# spark
+metastore_db/
+spark-warehouse/
+derby.log
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
