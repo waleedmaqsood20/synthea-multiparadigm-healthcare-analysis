@@ -1,0 +1,4 @@
+pandas>=2.0,<3.0
+pymongo>=4.6,<5
+pyspark>=3.5,<4
+python-dotenv>=1.0
